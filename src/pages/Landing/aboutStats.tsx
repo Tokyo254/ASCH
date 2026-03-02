@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import service from "../../assets/service5.jpg";
 
 const stats: Array<{ value: string; label: string }> = [
   { value: "200+", label: "Client Engagements" },
@@ -78,7 +79,7 @@ const pillars: string[] = [
             {/* Image */}
             <div className="rounded-3xl overflow-hidden h-64">
               <img
-                src="https://images.unsplash.com/photo-1758599543121-90a7b360bc2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=900"
+                src={service}
                 alt="Communication strategy meeting"
                 className="w-full h-full object-cover"
               />

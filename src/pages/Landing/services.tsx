@@ -1,4 +1,7 @@
 import { Megaphone, Shield, Globe, BarChart3, Mic2, Newspaper } from "lucide-react";
+import service1 from "../../assets/service1.jpg";
+import service3 from "../../assets/service2.jpg";
+import service6 from "../../assets/service3.jpg";               
 
 const services = [
   {
@@ -7,7 +10,7 @@ const services = [
     description:
       "We craft precise narratives that resonate with your audiences — from internal communications to investor statements and public positioning.",
     tag: "Core Service",
-    img: "https://images.unsplash.com/photo-1758873268663-5a362616b5a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    img: service1,
   },
   {
     icon: Shield,
@@ -31,7 +34,7 @@ const services = [
     description:
       "Media training, speech coaching, and presence work for C-suite leaders. Be confident, compelling, and camera-ready.",
     tag: "Leadership",
-    img: "https://images.unsplash.com/photo-1758599543154-76ec1c4257df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    img: service3,
   },
   {
     icon: Globe,
@@ -47,7 +50,7 @@ const services = [
     description:
       "Proactive monitoring, sentiment analysis, and long-term brand equity building that keeps your reputation ahead of the news cycle.",
     tag: "Core Service",
-    img: "https://images.unsplash.com/photo-1758599543121-90a7b360bc2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
+    img: service6,
   },
 ];
 
