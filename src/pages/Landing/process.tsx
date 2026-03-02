@@ -33,14 +33,14 @@ function Process() {
         <div className="text-center mb-16">
           <p
             className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#004945] text-[#caef45]"
-            style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700 }}
+            style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
           >
             How We Work
           </p>
           <h2
             className="text-[#004945] mx-auto max-w-xl"
             style={{
-              fontFamily: "'Sora', sans-serif",
+              fontFamily: "'Host Grotesk', sans-serif",
               fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
               fontWeight: 700,
               lineHeight: 1.15,
@@ -72,7 +72,7 @@ function Process() {
               <span
                 className="mb-4"
                 style={{
-                  fontFamily: "'Sora', sans-serif",
+                  fontFamily: "'Host Grotesk', sans-serif",
                   fontSize: "2.5rem",
                   fontWeight: 800,
                   color: i === 1 ? "#caef45" : "#004945",
@@ -86,7 +86,7 @@ function Process() {
               <h3
                 className="mb-3"
                 style={{
-                  fontFamily: "'Sora', sans-serif",
+                  fontFamily: "'Host Grotesk', sans-serif",
                   fontWeight: 700,
                   fontSize: "1.05rem",
                   color: i === 1 ? "#fffef0" : "#121212",
@@ -97,7 +97,7 @@ function Process() {
               <p
                 className="text-sm leading-relaxed"
                 style={{
-                  fontFamily: "'Manrope', sans-serif",
+                  fontFamily: "'Montserrat', sans-serif",
                   color: i === 1 ? "rgba(255,254,240,0.6)" : "rgba(18,18,18,0.55)",
                 }}
               >

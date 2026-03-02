@@ -32,7 +32,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
             </div>
             <p
               className="text-white/50 text-sm leading-relaxed mb-6 max-w-xs"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Strategic communication consultancy helping organisations shape
               narratives, protect reputations, and move audiences.
@@ -57,7 +57,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
           <div>
             <h4
               className="text-white font-semibold text-sm mb-5 uppercase tracking-wider"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Services
             </h4>
@@ -67,7 +67,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
                   <a
                     href="#services"
                     className="text-white/50 text-sm hover:text-white transition-colors"
-                    style={{ fontFamily: "'Manrope', sans-serif" }}
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
                   >
                     {item}
                   </a>
@@ -80,7 +80,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
           <div>
             <h4
               className="text-white font-semibold text-sm mb-5 uppercase tracking-wider"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Company
             </h4>
@@ -90,7 +90,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
                   <a
                     href="#"
                     className="text-white/50 text-sm hover:text-white transition-colors"
-                    style={{ fontFamily: "'Manrope', sans-serif" }}
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
                   >
                     {item}
                   </a>
@@ -103,7 +103,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
           <div>
             <h4
               className="text-white font-semibold text-sm mb-5 uppercase tracking-wider"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Get in Touch
             </h4>
@@ -117,7 +117,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
                   <Icon size={15} className="text-[#caef45] shrink-0 mt-0.5" />
                   <span
                     className="text-white/50 text-sm leading-snug"
-                    style={{ fontFamily: "'Manrope', sans-serif" }}
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
                   >
                     {text}
                   </span>
@@ -131,7 +131,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p
             className="text-white/30 text-xs"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             © 2026 Africa Strategic Communication Hub. All rights reserved.
           </p>
@@ -141,7 +141,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
                 key={item}
                 href="#"
                 className="text-white/30 text-xs hover:text-white/60 transition-colors"
-                style={{ fontFamily: "'Manrope', sans-serif" }}
+                style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 {item}
               </a>

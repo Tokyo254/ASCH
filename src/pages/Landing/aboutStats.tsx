@@ -23,14 +23,14 @@ const pillars: string[] = [
           <div>
             <p
               className="inline-block px-3 py-1 rounded-full text-xs mb-5 uppercase tracking-widest bg-[#caef45] text-[#004945]"
-              style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
-              About Clarion
+              About Africa Strategic Communications Hub
             </p>
             <h2
               className="text-white mb-6"
               style={{
-                fontFamily: "'Sora', sans-serif",
+                fontFamily: "'Host Grotesk', sans-serif",
                 fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
                 fontWeight: 700,
                 lineHeight: 1.15,
@@ -41,9 +41,9 @@ const pillars: string[] = [
             </h2>
             <p
               className="text-white/65 mb-8 text-base leading-relaxed"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
-              Clarion was founded on a simple belief: the right words, delivered
+              ASCH was founded on a simple belief: the right words, delivered
               at the right moment, can change everything. We partner with CEOs,
               governments, NGOs, and fast-growth brands to develop communication
               strategies that build trust, protect reputation, and move audiences
@@ -56,7 +56,7 @@ const pillars: string[] = [
                   <CheckCircle2 size={18} className="text-[#caef45] shrink-0" />
                   <span
                     className="text-white/75 text-sm"
-                    style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 500 }}
+                    style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
                   >
                     {item}
                   </span>
@@ -67,7 +67,7 @@ const pillars: string[] = [
             <a
               href="#contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#caef45] text-[#121212] font-bold text-sm hover:bg-[#d8f55a] transition-all"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Meet the team
             </a>
@@ -95,7 +95,7 @@ const pillars: string[] = [
                   <span
                     className="block text-[#caef45] mb-1"
                     style={{
-                      fontFamily: "'Sora', sans-serif",
+                      fontFamily: "'Host Grotesk', sans-serif",
                       fontSize: "2rem",
                       fontWeight: 700,
                       lineHeight: 1,
@@ -105,7 +105,7 @@ const pillars: string[] = [
                   </span>
                   <span
                     className="text-white/50 text-sm"
-                    style={{ fontFamily: "'Manrope', sans-serif" }}
+                    style={{ fontFamily: "'Montserrat', sans-serif" }}
                   >
                     {label}
                   </span>

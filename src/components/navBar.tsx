@@ -28,7 +28,7 @@ function Navbar() {
             key={link}
             href={`#${link.toLowerCase()}`}
             className="text-white/80 hover:text-white text-sm font-medium transition-colors"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             {link}
           </a>
@@ -40,14 +40,14 @@ function Navbar() {
         <a
           href="#contact"
           className="text-white/80 hover:text-white text-sm font-semibold transition-colors"
-          style={{ fontFamily: "'Manrope', sans-serif" }}
+          style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
           Contact
         </a>
         <a
           href="#contact"
           className="px-6 py-2.5 rounded-full border border-white text-white text-sm font-semibold hover:bg-white hover:text-[#004945] transition-all"
-          style={{ fontFamily: "'Manrope', sans-serif" }}
+          style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
           Get a Proposal
         </a>
@@ -70,7 +70,7 @@ function Navbar() {
               key={link}
               href={`#${link.toLowerCase()}`}
               className="text-white/80 hover:text-white text-base font-medium"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
               onClick={() => setMobileOpen(false)}
             >
               {link}
@@ -79,7 +79,7 @@ function Navbar() {
           <a
             href="#contact"
             className="mt-2 px-6 py-3 rounded-full bg-[#caef45] text-[#121212] text-sm font-bold text-center"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
             onClick={() => setMobileOpen(false)}
           >
             Get a Proposal

@@ -13,7 +13,7 @@ function ClientLogos() {
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <p
           className="text-center text-xs uppercase tracking-widest text-black/40 mb-7"
-          style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 600 }}
+          style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
         >
           Featured in & trusted by leading organisations
         </p>
@@ -22,7 +22,7 @@ function ClientLogos() {
             <span
               key={name}
               className="text-[#004945] text-base md:text-lg"
-              style={{ fontFamily: "'Sora', sans-serif", fontWeight: 700, letterSpacing: "-0.02em" }}
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700, letterSpacing: "-0.02em" }}
             >
               {name}
             </span>

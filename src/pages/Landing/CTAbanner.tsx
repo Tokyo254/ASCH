@@ -13,14 +13,14 @@ function CTABanner() {
           <div className="max-w-xl relative z-10">
             <p
               className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#caef45] text-[#004945]"
-              style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               Ready to Start?
             </p>
             <h2
               className="text-white mb-4"
               style={{
-                fontFamily: "'Sora', sans-serif",
+                fontFamily: "'Host Grotesk', sans-serif",
                 fontSize: "clamp(1.8rem, 4vw, 2.5rem)",
                 fontWeight: 700,
                 lineHeight: 1.2,
@@ -31,7 +31,7 @@ function CTABanner() {
             </h2>
             <p
               className="text-white/65 text-base leading-relaxed"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Whether you're navigating a crisis, launching a campaign, or
               building long-term reputation equity — Clarion is ready to help.
@@ -44,7 +44,7 @@ function CTABanner() {
             <a
               href="mailto:hello@clarioncomms.co"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#caef45] text-[#121212] font-bold text-base hover:bg-[#d8f55a] transition-all shadow-lg"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Request a Proposal
               <ArrowRight size={18} />
@@ -52,7 +52,7 @@ function CTABanner() {
             <a
               href="tel:+442071234567"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border border-white/30 text-white font-semibold text-base hover:bg-white/5 transition-all"
-              style={{ fontFamily: "'Manrope', sans-serif" }}
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Call Us
             </a>

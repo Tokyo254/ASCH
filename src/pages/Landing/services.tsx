@@ -60,14 +60,14 @@ function Services() {
           <div className="max-w-xl">
             <p
               className="text-[#caef45] bg-[#004945] inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest"
-              style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               What We Do
             </p>
             <h2
               className="text-[#004945]"
               style={{
-                fontFamily: "'Sora', sans-serif",
+                fontFamily: "'Host Grotesk', sans-serif",
                 fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
                 fontWeight: 700,
                 lineHeight: 1.15,
@@ -79,7 +79,7 @@ function Services() {
           </div>
           <p
             className="text-black/60 max-w-sm text-sm leading-relaxed"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Six integrated disciplines. One consultancy. Built for organisations
             that understand the power of getting communication right.
@@ -124,7 +124,7 @@ function Services() {
                     <span
                       className="text-xs px-3 py-1 rounded-full"
                       style={{
-                        fontFamily: "'Manrope', sans-serif",
+                        fontFamily: "'Montserrat', sans-serif",
                         fontWeight: 600,
                         background:
                           i % 3 === 1 ? "rgba(202,239,69,0.15)" : "rgba(0,73,69,0.1)",
@@ -138,7 +138,7 @@ function Services() {
                   <h3
                     className="mb-2"
                     style={{
-                      fontFamily: "'Sora', sans-serif",
+                      fontFamily: "'Host Grotesk', sans-serif",
                       fontWeight: 700,
                       fontSize: "1.1rem",
                       color: i % 3 === 1 ? "#fffef0" : "#121212",
@@ -149,7 +149,7 @@ function Services() {
                   <p
                     className="text-sm leading-relaxed"
                     style={{
-                      fontFamily: "'Manrope', sans-serif",
+                      fontFamily: "'Montserrat', sans-serif",
                       color: i % 3 === 1 ? "rgba(255,254,240,0.65)" : "rgba(18,18,18,0.6)",
                     }}
                   >

@@ -17,7 +17,7 @@ function Hero() {
         {/* Eyebrow tag */}
         <div
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 text-white/70 text-sm mb-8"
-          style={{ fontFamily: "'Manrope', sans-serif" }}
+          style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
           <span className="w-1.5 h-1.5 rounded-full bg-[#caef45]" />
           Strategic Communication Consultancy
@@ -27,7 +27,7 @@ function Hero() {
         <h1
           className="text-white max-w-4xl mb-6"
           style={{
-            fontFamily: "'Sora', sans-serif",
+            fontFamily: "'Host Grotesk', sans-serif",
             fontSize: "clamp(2.5rem, 6vw, 4.5rem)",
             fontWeight: 700,
             lineHeight: 1.1,
@@ -41,9 +41,9 @@ function Hero() {
         {/* Subtitle */}
         <p
           className="text-white/70 max-w-2xl mb-10 text-lg md:text-xl leading-relaxed"
-          style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 500 }}
+          style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
         >
-          Clarion helps organisations, leaders, and brands cut through the noise
+          ASCH helps organisations, leaders, and brands cut through the noise
           — with strategic messaging, crisis communication, and media relations
           that move people to action.
         </p>
@@ -53,7 +53,7 @@ function Hero() {
           <a
             href="#contact"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#caef45] text-[#121212] font-bold text-base hover:bg-[#d8f55a] transition-all shadow-lg shadow-black/20"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Start a Conversation
             <ArrowRight size={18} />
@@ -61,7 +61,7 @@ function Hero() {
           <a
             href="#services"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/30 text-white font-semibold text-base hover:border-white/60 hover:bg-white/5 transition-all"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Explore Services
           </a>
@@ -78,7 +78,7 @@ function Hero() {
               <span
                 className="text-[#caef45]"
                 style={{
-                  fontFamily: "'Sora', sans-serif",
+                  fontFamily: "'Host Grotesk', sans-serif",
                   fontSize: "clamp(1.5rem, 4vw, 2.25rem)",
                   fontWeight: 700,
                   lineHeight: 1,
@@ -88,7 +88,7 @@ function Hero() {
               </span>
               <span
                 className="text-white/50 text-xs md:text-sm mt-1 text-center"
-                style={{ fontFamily: "'Manrope', sans-serif" }}
+                style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 {label}
               </span>

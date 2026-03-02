@@ -40,14 +40,14 @@ function Testimonials() {
         <div className="text-center mb-14">
           <p
             className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#caef45] text-[#004945]"
-            style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700 }}
+            style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
           >
             Client Stories
           </p>
           <h2
             className="text-white"
             style={{
-              fontFamily: "'Sora', sans-serif",
+              fontFamily: "'Host Grotesk', sans-serif",
               fontSize: "clamp(1.8rem, 4vw, 2.6rem)",
               fontWeight: 700,
               letterSpacing: "-0.02em",
@@ -63,7 +63,7 @@ function Testimonials() {
 
           <p
             className="text-white/85 text-lg md:text-xl leading-relaxed mb-10"
-            style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 500 }}
+            style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
           >
             "{t.quote}"
           </p>
@@ -78,13 +78,13 @@ function Testimonials() {
               <div>
                 <p
                   className="text-white font-semibold text-sm"
-                  style={{ fontFamily: "'Sora', sans-serif" }}
+                  style={{ fontFamily: "'Host Grotesk', sans-serif" }}
                 >
                   {t.name}
                 </p>
                 <p
                   className="text-white/50 text-xs"
-                  style={{ fontFamily: "'Manrope', sans-serif" }}
+                  style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
                   {t.title}
                 </p>

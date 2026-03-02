@@ -36,14 +36,14 @@ function Team() {
           <div>
             <p
               className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#004945] text-[#caef45]"
-              style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700 }}
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               Our Team
             </p>
             <h2
               className="text-[#004945]"
               style={{
-                fontFamily: "'Sora', sans-serif",
+                fontFamily: "'Host Grotesk', sans-serif",
                 fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
                 fontWeight: 700,
                 lineHeight: 1.15,
@@ -55,7 +55,7 @@ function Team() {
           </div>
           <p
             className="text-black/55 max-w-sm text-sm leading-relaxed"
-            style={{ fontFamily: "'Manrope', sans-serif" }}
+            style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             You'll always work directly with the people at the top. No juniors
             running your account — ever.
@@ -93,7 +93,7 @@ function Team() {
                 <h3
                   className="mb-1"
                   style={{
-                    fontFamily: "'Sora', sans-serif",
+                    fontFamily: "'Host Grotesk', sans-serif",
                     fontWeight: 700,
                     fontSize: "1.05rem",
                     color: member.accent ? "#fffef0" : "#121212",
@@ -104,7 +104,7 @@ function Team() {
                 <p
                   className="text-xs mb-3 font-semibold uppercase tracking-wider"
                   style={{
-                    fontFamily: "'Manrope', sans-serif",
+                    fontFamily: "'Montserrat', sans-serif",
                     color: "#caef45",
                   }}
                 >
@@ -113,7 +113,7 @@ function Team() {
                 <p
                   className="text-sm leading-relaxed mb-5"
                   style={{
-                    fontFamily: "'Manrope', sans-serif",
+                    fontFamily: "'Montserrat', sans-serif",
                     color: member.accent
                       ? "rgba(255,254,240,0.6)"
                       : "rgba(18,18,18,0.55)",
