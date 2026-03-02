@@ -29,19 +29,19 @@ const team = [
 ];
 function Team() {
   return (
-    <section id="team" className="bg-[#fffef0] py-24 px-6 md:px-12 lg:px-20">
+    <section id="team" className="bg-[#F2F7FF] py-24 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
             <p
-              className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#004945] text-[#caef45]"
+              className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#0E1E3D] text-[#4EAEFF]"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               Our Team
             </p>
             <h2
-              className="text-[#004945]"
+              className="text-[#0E1E3D]"
               style={{
                 fontFamily: "'Host Grotesk', sans-serif",
                 fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
@@ -68,7 +68,7 @@ function Team() {
             <div
               key={member.name}
               className="rounded-3xl overflow-hidden group"
-              style={{ background: member.accent ? "#004945" : "#f0f0e4" }}
+              style={{ background: member.accent ? "#0E1E3D" : "#E4EEFF" }}
             >
               {/* Photo */}
               <div className="relative h-64 overflow-hidden">
@@ -82,8 +82,8 @@ function Team() {
                   className="absolute inset-0"
                   style={{
                     background: member.accent
-                      ? "linear-gradient(to bottom, transparent 50%, #004945 100%)"
-                      : "linear-gradient(to bottom, transparent 50%, #f0f0e4 100%)",
+                      ? "linear-gradient(to bottom, transparent 50%, #0E1E3D 100%)"
+                      : "linear-gradient(to bottom, transparent 50%, #E4EEFF 100%)",
                   }}
                 />
               </div>
@@ -96,7 +96,7 @@ function Team() {
                     fontFamily: "'Host Grotesk', sans-serif",
                     fontWeight: 700,
                     fontSize: "1.05rem",
-                    color: member.accent ? "#fffef0" : "#121212",
+                    color: member.accent ? "#F2F7FF" : "#121212",
                   }}
                 >
                   {member.name}
@@ -105,7 +105,7 @@ function Team() {
                   className="text-xs mb-3 font-semibold uppercase tracking-wider"
                   style={{
                     fontFamily: "'Montserrat', sans-serif",
-                    color: "#caef45",
+                    color: "#4EAEFF",
                   }}
                 >
                   {member.role}
@@ -132,7 +132,7 @@ function Team() {
                         background: member.accent
                           ? "rgba(202,239,69,0.12)"
                           : "rgba(0,73,69,0.08)",
-                        color: member.accent ? "#caef45" : "#004945",
+                        color: member.accent ? "#4EAEFF" : "#0E1E3D",
                       }}
                       aria-label="Social link"
                     >

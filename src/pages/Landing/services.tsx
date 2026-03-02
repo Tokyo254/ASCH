@@ -56,19 +56,19 @@ const services = [
 
 function Services() {
   return (
-    <section id="services" className="bg-[#fffef0] py-24 px-6 md:px-12 lg:px-20">
+    <section id="services" className="bg-[#F2F7FF] py-24 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div className="max-w-xl">
             <p
-              className="text-[#caef45] bg-[#004945] inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest"
+              className="text-[#4EAEFF] bg-[#0E1E3D] inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               What We Do
             </p>
             <h2
-              className="text-[#004945]"
+              className="text-[#0E1E3D]"
               style={{
                 fontFamily: "'Host Grotesk', sans-serif",
                 fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
@@ -99,7 +99,7 @@ function Services() {
                 className={`group relative rounded-3xl overflow-hidden cursor-pointer transition-transform hover:-translate-y-1 ${
                   i === 0 ? "md:col-span-2 lg:col-span-1" : ""
                 }`}
-                style={{ background: i % 3 === 1 ? "#004945" : "#f0f0e4" }}
+                style={{ background: i % 3 === 1 ? "#0E1E3D" : "#E4EEFF" }}
               >
                 {/* Image */}
                 <div className="h-48 overflow-hidden">
@@ -116,12 +116,12 @@ function Services() {
                     <div
                       className="w-10 h-10 rounded-xl flex items-center justify-center"
                       style={{
-                        background: i % 3 === 1 ? "#caef45" : "#004945",
+                        background: i % 3 === 1 ? "#4EAEFF" : "#0E1E3D",
                       }}
                     >
                       <Icon
                         size={18}
-                        color={i % 3 === 1 ? "#004945" : "#caef45"}
+                        color={i % 3 === 1 ? "#0E1E3D" : "#4EAEFF"}
                       />
                     </div>
                     <span
@@ -131,7 +131,7 @@ function Services() {
                         fontWeight: 600,
                         background:
                           i % 3 === 1 ? "rgba(202,239,69,0.15)" : "rgba(0,73,69,0.1)",
-                        color: i % 3 === 1 ? "#caef45" : "#004945",
+                        color: i % 3 === 1 ? "#4EAEFF" : "#0E1E3D",
                       }}
                     >
                       {service.tag}
@@ -144,7 +144,7 @@ function Services() {
                       fontFamily: "'Host Grotesk', sans-serif",
                       fontWeight: 700,
                       fontSize: "1.1rem",
-                      color: i % 3 === 1 ? "#fffef0" : "#121212",
+                      color: i % 3 === 1 ? "#F2F7FF" : "#121212",
                     }}
                   >
                     {service.title}

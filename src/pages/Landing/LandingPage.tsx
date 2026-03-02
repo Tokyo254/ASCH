@@ -11,9 +11,9 @@ import CTABanner from './CTAbanner';
 
 function LandingPage() {
   return (
-    <div className="min-h-screen" style={{ background: "#fffef0" }}>
+    <div className="min-h-screen" style={{ background: "#F2F7FF" }}>
       {/* Hero section wraps the Navbar so it sits on the dark teal bg */}
-      <div className="relative bg-[#004945]">
+      <div className="relative bg-[#0E1E3D]">
         <NavBar />
         <Hero />
       </div>

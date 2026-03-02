@@ -2,15 +2,15 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 
 function Hero() {
   return (
-    <section className="relative bg-[#004945] overflow-hidden min-h-screen flex flex-col">
+    <section className="relative bg-[#0E1E3D] overflow-hidden min-h-screen flex flex-col">
       {/* Decorative background blobs */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#003a36] opacity-60 translate-x-1/3 -translate-y-1/4 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#003a36] opacity-40 -translate-x-1/4 translate-y-1/4 pointer-events-none" />
 
       {/* Lime accent dot cluster */}
-      <div className="absolute top-32 right-24 w-2 h-2 rounded-full bg-[#caef45] opacity-80 pointer-events-none" />
-      <div className="absolute top-40 right-32 w-1 h-1 rounded-full bg-[#caef45] opacity-50 pointer-events-none" />
-      <div className="absolute bottom-40 left-16 w-3 h-3 rounded-full bg-[#caef45] opacity-30 pointer-events-none" />
+      <div className="absolute top-32 right-24 w-2 h-2 rounded-full bg-[#4EAEFF] opacity-80 pointer-events-none" />
+      <div className="absolute top-40 right-32 w-1 h-1 rounded-full bg-[#4EAEFF] opacity-50 pointer-events-none" />
+      <div className="absolute bottom-40 left-16 w-3 h-3 rounded-full bg-[#4EAEFF] opacity-30 pointer-events-none" />
 
       {/* Main hero content */}
       <div className="flex-1 flex flex-col items-center justify-center text-center px-6 md:px-12 pt-12 pb-24 relative z-10">
@@ -19,7 +19,7 @@ function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 text-white/70 text-sm mb-8"
           style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
-          <span className="w-1.5 h-1.5 rounded-full bg-[#caef45]" />
+          <span className="w-1.5 h-1.5 rounded-full bg-[#4EAEFF]" />
           Strategic Communication Consultancy
         </div>
 
@@ -35,7 +35,7 @@ function Hero() {
           }}
         >
           Shape the narrative.{" "}
-          <span className="text-[#caef45]">Command</span> your story.
+          <span className="text-[#4EAEFF]">Command</span> your story.
         </h1>
 
         {/* Subtitle */}
@@ -52,7 +52,7 @@ function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#caef45] text-[#121212] font-bold text-base hover:bg-[#d8f55a] transition-all shadow-lg shadow-black/20"
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#4EAEFF] text-[#121212] font-bold text-base hover:bg-[#d8f55a] transition-all shadow-lg shadow-black/20"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Start a Conversation
@@ -76,7 +76,7 @@ function Hero() {
           ].map(({ value, label }) => (
             <div key={label} className="flex flex-col items-center">
               <span
-                className="text-[#caef45]"
+                className="text-[#4EAEFF]"
                 style={{
                   fontFamily: "'Host Grotesk', sans-serif",
                   fontSize: "clamp(1.5rem, 4vw, 2.25rem)",

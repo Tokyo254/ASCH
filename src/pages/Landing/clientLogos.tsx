@@ -9,7 +9,7 @@ function ClientLogos() {
   ];
 
   return (
-    <section className="bg-[#fffef0] py-10 border-b border-black/5">
+    <section className="bg-[#F2F7FF] py-10 border-b border-black/5">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <p
           className="text-center text-xs uppercase tracking-widest text-black/40 mb-7"
@@ -21,7 +21,7 @@ function ClientLogos() {
           {logos.map((name) => (
             <span
               key={name}
-              className="text-[#004945] text-base md:text-lg"
+              className="text-[#0E1E3D] text-base md:text-lg"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700, letterSpacing: "-0.02em" }}
             >
               {name}

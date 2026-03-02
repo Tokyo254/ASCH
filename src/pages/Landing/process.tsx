@@ -27,18 +27,18 @@ const steps = [
 
 function Process() {
   return (
-    <section id="process" className="bg-[#fffef0] py-24 px-6 md:px-12 lg:px-20">
+    <section id="process" className="bg-[#F2F7FF] py-24 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
           <p
-            className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#004945] text-[#caef45]"
+            className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#0E1E3D] text-[#4EAEFF]"
             style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
           >
             How We Work
           </p>
           <h2
-            className="text-[#004945] mx-auto max-w-xl"
+            className="text-[#0E1E3D] mx-auto max-w-xl"
             style={{
               fontFamily: "'Host Grotesk', sans-serif",
               fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
@@ -58,14 +58,14 @@ function Process() {
               key={step.number}
               className="relative p-7 rounded-3xl flex flex-col"
               style={{
-                background: i === 1 ? "#004945" : "#f0f0e4",
+                background: i === 1 ? "#0E1E3D" : "#E4EEFF",
               }}
             >
               {/* Connector line (desktop) */}
               {i < steps.length - 1 && (
                 <div
                   className="hidden lg:block absolute top-10 right-0 translate-x-1/2 z-10 w-6 h-px"
-                  style={{ background: i === 0 || i === 2 ? "#004945" : "#caef45", opacity: 0.3 }}
+                  style={{ background: i === 0 || i === 2 ? "#0E1E3D" : "#4EAEFF", opacity: 0.3 }}
                 />
               )}
 
@@ -75,7 +75,7 @@ function Process() {
                   fontFamily: "'Host Grotesk', sans-serif",
                   fontSize: "2.5rem",
                   fontWeight: 800,
-                  color: i === 1 ? "#caef45" : "#004945",
+                  color: i === 1 ? "#4EAEFF" : "#0E1E3D",
                   opacity: i === 1 ? 1 : 0.2,
                   lineHeight: 1,
                 }}
@@ -89,7 +89,7 @@ function Process() {
                   fontFamily: "'Host Grotesk', sans-serif",
                   fontWeight: 700,
                   fontSize: "1.05rem",
-                  color: i === 1 ? "#fffef0" : "#121212",
+                  color: i === 1 ? "#F2F7FF" : "#121212",
                 }}
               >
                 {step.title}

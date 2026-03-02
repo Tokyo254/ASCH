@@ -35,11 +35,11 @@ function Testimonials() {
   const t = testimonials[active];
 
   return (
-    <section className="bg-[#004945] py-24 px-6 md:px-12 lg:px-20">
+    <section className="bg-[#0E1E3D] py-24 px-6 md:px-12 lg:px-20">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <p
-            className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#caef45] text-[#004945]"
+            className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#4EAEFF] text-[#0E1E3D]"
             style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
           >
             Client Stories
@@ -59,7 +59,7 @@ function Testimonials() {
 
         {/* Card */}
         <div className="relative rounded-3xl p-8 md:p-12 bg-white/5 border border-white/10">
-          <Quote size={40} className="text-[#caef45] opacity-40 mb-6" />
+          <Quote size={40} className="text-[#4EAEFF] opacity-40 mb-6" />
 
           <p
             className="text-white/85 text-lg md:text-xl leading-relaxed mb-10"
@@ -73,7 +73,7 @@ function Testimonials() {
               <img
                 src={t.img}
                 alt={t.name}
-                className="w-14 h-14 rounded-full object-cover border-2 border-[#caef45]"
+                className="w-14 h-14 rounded-full object-cover border-2 border-[#4EAEFF]"
               />
               <div>
                 <p
@@ -95,14 +95,14 @@ function Testimonials() {
             <div className="flex gap-3">
               <button
                 onClick={prev}
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:border-[#caef45] hover:text-[#caef45] transition-all"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:border-[#4EAEFF] hover:text-[#4EAEFF] transition-all"
                 aria-label="Previous"
               >
                 <ChevronLeft size={18} />
               </button>
               <button
                 onClick={next}
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:border-[#caef45] hover:text-[#caef45] transition-all"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:border-[#4EAEFF] hover:text-[#4EAEFF] transition-all"
                 aria-label="Next"
               >
                 <ChevronRight size={18} />
@@ -120,7 +120,7 @@ function Testimonials() {
                 style={{
                   width: i === active ? "24px" : "8px",
                   height: "8px",
-                  background: i === active ? "#caef45" : "rgba(255,254,240,0.25)",
+                  background: i === active ? "#4EAEFF" : "rgba(255,254,240,0.25)",
                 }}
                 aria-label={`Go to testimonial ${i + 1}`}
               />

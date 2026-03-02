@@ -17,13 +17,13 @@ const pillars: string[] = [
 
  function AboutStats() {
   return (
-    <section id="about" className="bg-[#004945] py-24 px-6 md:px-12 lg:px-20">
+    <section id="about" className="bg-[#0E1E3D] py-24 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: Text */}
           <div>
             <p
-              className="inline-block px-3 py-1 rounded-full text-xs mb-5 uppercase tracking-widest bg-[#caef45] text-[#004945]"
+              className="inline-block px-3 py-1 rounded-full text-xs mb-5 uppercase tracking-widest bg-[#4EAEFF] text-[#0E1E3D]"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               About Africa Strategic Communications Hub
@@ -54,7 +54,7 @@ const pillars: string[] = [
             <ul className="space-y-3 mb-10">
               {pillars.map((item) => (
                 <li key={item} className="flex items-center gap-3">
-                  <CheckCircle2 size={18} className="text-[#caef45] shrink-0" />
+                  <CheckCircle2 size={18} className="text-[#4EAEFF] shrink-0" />
                   <span
                     className="text-white/75 text-sm"
                     style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
@@ -67,7 +67,7 @@ const pillars: string[] = [
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#caef45] text-[#121212] font-bold text-sm hover:bg-[#d8f55a] transition-all"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#4EAEFF] text-[#121212] font-bold text-sm hover:bg-[#d8f55a] transition-all"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Meet the team
@@ -94,7 +94,7 @@ const pillars: string[] = [
                   style={{ background: "rgba(255,254,240,0.07)" }}
                 >
                   <span
-                    className="block text-[#caef45] mb-1"
+                    className="block text-[#4EAEFF] mb-1"
                     style={{
                       fontFamily: "'Host Grotesk', sans-serif",
                       fontSize: "2rem",

@@ -13,15 +13,15 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
 
  function Footer() {
   return (
-    <footer className="bg-[#004945] pt-16 pb-8 px-6 md:px-12 lg:px-20">
+    <footer className="bg-[#0E1E3D] pt-16 pb-8 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Top row */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-14">
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-[#caef45] flex items-center justify-center">
-                <div className="w-3 h-3 rounded-full bg-[#004945]" />
+              <div className="w-8 h-8 rounded-full bg-[#4EAEFF] flex items-center justify-center">
+                <div className="w-3 h-3 rounded-full bg-[#0E1E3D]" />
               </div>
               <span
                 className="text-white font-extrabold text-xl tracking-tight"
@@ -44,7 +44,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
                 <a
                   key={i}
                   href="#"
-                  className="w-9 h-9 rounded-full flex items-center justify-center border border-white/15 text-white/50 hover:border-[#caef45] hover:text-[#caef45] transition-all"
+                  className="w-9 h-9 rounded-full flex items-center justify-center border border-white/15 text-white/50 hover:border-[#4EAEFF] hover:text-[#4EAEFF] transition-all"
                   aria-label="Social"
                 >
                   <Icon size={15} />
@@ -114,7 +114,7 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
                 { icon: MapPin, text: "ABC Place, Nairobi, Kenya" },
               ].map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-start gap-3">
-                  <Icon size={15} className="text-[#caef45] shrink-0 mt-0.5" />
+                  <Icon size={15} className="text-[#4EAEFF] shrink-0 mt-0.5" />
                   <span
                     className="text-white/50 text-sm leading-snug"
                     style={{ fontFamily: "'Montserrat', sans-serif" }}

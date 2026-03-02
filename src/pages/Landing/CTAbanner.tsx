@@ -2,17 +2,17 @@ import { ArrowRight } from "lucide-react";
 
 function CTABanner() {
   return (
-    <section id="contact" className="bg-[#fffef0] py-16 px-6 md:px-12 lg:px-20">
+    <section id="contact" className="bg-[#F2F7FF] py-16 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-[#004945] rounded-3xl px-8 md:px-16 py-14 md:py-20 flex flex-col md:flex-row items-center justify-between gap-10 relative overflow-hidden">
+        <div className="bg-[#0E1E3D] rounded-3xl px-8 md:px-16 py-14 md:py-20 flex flex-col md:flex-row items-center justify-between gap-10 relative overflow-hidden">
           {/* Decorative circle */}
           <div className="absolute -top-20 -right-20 w-72 h-72 rounded-full bg-white/5 pointer-events-none" />
-          <div className="absolute bottom-0 right-40 w-40 h-40 rounded-full bg-[#caef45]/10 pointer-events-none" />
+          <div className="absolute bottom-0 right-40 w-40 h-40 rounded-full bg-[#4EAEFF]/10 pointer-events-none" />
 
           {/* Text */}
           <div className="max-w-xl relative z-10">
             <p
-              className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#caef45] text-[#004945]"
+              className="inline-block px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-widest bg-[#4EAEFF] text-[#0E1E3D]"
               style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}
             >
               Ready to Start?
@@ -43,7 +43,7 @@ function CTABanner() {
           <div className="flex flex-col sm:flex-row gap-4 shrink-0 relative z-10">
             <a
               href="mailto:hello@clarioncomms.co"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#caef45] text-[#121212] font-bold text-base hover:bg-[#d8f55a] transition-all shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#4EAEFF] text-[#121212] font-bold text-base hover:bg-[#d8f55a] transition-all shadow-lg"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               Request a Proposal
