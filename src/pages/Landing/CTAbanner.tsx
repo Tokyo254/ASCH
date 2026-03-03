@@ -50,7 +50,7 @@ function CTABanner() {
               <ArrowRight size={18} />
             </a>
             <a
-              href="tel:+442071234567"
+              href="tel:++254111978418"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full border border-white/30 text-white font-semibold text-base hover:bg-white/5 transition-all"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
