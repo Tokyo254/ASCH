@@ -19,7 +19,7 @@ function Navbar() {
         <span className="text-white font-extrabold text-xl tracking-tight">
           ASCH
         </span>
-      </div>
+      </div>``
 
       {/* Desktop Nav */}
       <div className="hidden md:flex items-center gap-8">
