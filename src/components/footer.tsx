@@ -20,9 +20,9 @@ const company = ["About Us", "Our Team", "Insights & Blog", "Case Studies", "Car
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-[#4EAEFF] flex items-center justify-center">
+              {/* <div className="w-8 h-8 rounded-full bg-[#4EAEFF] flex items-center justify-center">
                 <div className="w-3 h-3 rounded-full bg-[#0E1E3D]" />
-              </div>
+              </div> */}
               <span
                 className="text-white font-extrabold text-xl tracking-tight"
                 style={{ fontFamily: "'Sora', sans-serif" }}
